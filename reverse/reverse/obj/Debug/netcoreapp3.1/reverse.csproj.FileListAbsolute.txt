@@ -1,0 +1,14 @@
+C:\Users\Dell\Desktop\github\Assignments\reverse\reverse\bin\Debug\netcoreapp3.1\reverse.exe
+C:\Users\Dell\Desktop\github\Assignments\reverse\reverse\bin\Debug\netcoreapp3.1\reverse.deps.json
+C:\Users\Dell\Desktop\github\Assignments\reverse\reverse\bin\Debug\netcoreapp3.1\reverse.runtimeconfig.json
+C:\Users\Dell\Desktop\github\Assignments\reverse\reverse\bin\Debug\netcoreapp3.1\reverse.runtimeconfig.dev.json
+C:\Users\Dell\Desktop\github\Assignments\reverse\reverse\bin\Debug\netcoreapp3.1\reverse.dll
+C:\Users\Dell\Desktop\github\Assignments\reverse\reverse\bin\Debug\netcoreapp3.1\reverse.pdb
+C:\Users\Dell\Desktop\github\Assignments\reverse\reverse\obj\Debug\netcoreapp3.1\reverse.csproj.AssemblyReference.cache
+C:\Users\Dell\Desktop\github\Assignments\reverse\reverse\obj\Debug\netcoreapp3.1\reverse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\Desktop\github\Assignments\reverse\reverse\obj\Debug\netcoreapp3.1\reverse.AssemblyInfoInputs.cache
+C:\Users\Dell\Desktop\github\Assignments\reverse\reverse\obj\Debug\netcoreapp3.1\reverse.AssemblyInfo.cs
+C:\Users\Dell\Desktop\github\Assignments\reverse\reverse\obj\Debug\netcoreapp3.1\reverse.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\github\Assignments\reverse\reverse\obj\Debug\netcoreapp3.1\reverse.dll
+C:\Users\Dell\Desktop\github\Assignments\reverse\reverse\obj\Debug\netcoreapp3.1\reverse.pdb
+C:\Users\Dell\Desktop\github\Assignments\reverse\reverse\obj\Debug\netcoreapp3.1\reverse.genruntimeconfig.cache
