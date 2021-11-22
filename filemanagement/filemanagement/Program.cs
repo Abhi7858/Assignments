@@ -4,51 +4,51 @@ namespace filemanagement
 {
     class Program
     {
-        public static void enterpatient()
+        public static void EnterPatientDetails()
         {
             Console.Write("\nEnter Patient's Full Name:- ");
-            string patientname = Console.ReadLine();
+            string patientName = Console.ReadLine();
             Console.Write("Enter Symptoms:- ");
             string symptoms = Console.ReadLine();
             Console.Write("Enter Treatment:- ");
             string treatment = Console.ReadLine();
             Console.Write("Enter Doctor Name:- ");
-            string drname = Console.ReadLine();
-            string appointmentdate = DateTime.Now.ToString("dd-MM-yyyy");
-            string path = @"C:\Users\Public\Documents\wheel\" + patientname + ".txt";
+            string drName = Console.ReadLine();
+            string appointmentDate = DateTime.Now.ToString("dd-MM-yyyy");
+            string path = @"C:\Users\Public\Documents\wheel\" + patientName + ".txt";
             if (File.Exists(path))
             {
-                using (StreamWriter writeinfile = File.AppendText(path))
+                using (StreamWriter writeinFile = File.AppendText(path))
                 {
-                    writeinfile.WriteLine(patientname + " " + symptoms + " " + treatment + " " + drname + " " + appointmentdate);
+                    writeinFile.WriteLine(patientName + " " + symptoms + " " + treatment + " " + drName + " " + appointmentDate);
                     Console.WriteLine("Patient's new data is added in existing file Sucessfully..!!\n");
                 }
 
             }
             else
             {
-                using (StreamWriter writeinfile = File.CreateText(path))
+                using (StreamWriter writeinFile = File.CreateText(path))
                 {
-                    writeinfile.WriteLine(patientname + " " + symptoms + " " + treatment + " " + drname + " " + appointmentdate);
+                    writeinFile.WriteLine(patientName + " " + symptoms + " " + treatment + " " + drName + " " + appointmentDate);
                     Console.WriteLine("Patient's record added Sucessfully..!!\n");
                 }
             }
         }
-        public static void displaypatient()
+        public static void DisplayPatientDetails()
         {
             Console.Write("\nEnter Patient's Full Name:- ");
-            string patientname = Console.ReadLine();
-            string path = @"C:\Users\Public\Documents\wheel\" + patientname + ".txt";
+            string patientName = Console.ReadLine();
+            string path = @"C:\Users\Public\Documents\wheel\" + patientName + ".txt";
             if (File.Exists(path))
             {
-                foreach (string readinfile in File.ReadLines(path))
+                foreach (string readinFile in File.ReadLines(path))
                 {
-                    Console.WriteLine(readinfile);
+                    Console.WriteLine(readinFile);
                 }
             }
             else
             {
-                Console.WriteLine("No Record For {patientname} Patient\n");
+                Console.WriteLine("No Record For {patientName} Patient\n");
             }
         }
         static void Main()
@@ -64,10 +64,10 @@ namespace filemanagement
                 switch (choice)
                 {
                     case 1:
-                        enterpatient();
+                        EnterPatientDetails();
                         break;
                     case 2:
-                        displaypatient();
+                        DisplayPatientDetails();
                         break;
                     case 0:
                         Console.WriteLine("Thank You..!!");
