@@ -1,0 +1,43 @@
+﻿@model AtmSystem.Models.Customer
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Customer</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Accountno)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Accountno)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Balance)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Balance)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    <input type="button" value="Withdraw money" onclick="location.href='@Url.Action("Withdraw","Customers",new { id =Model.Accountno })'" />
+    <input type="button" value="Transfer money" onclick="location.href='@Url.Action("Transfer","Customers",new { id =Model.Accountno })'" /><br>
+    <input type="button" value="Logut" onclick="location.href='@Url.Action("Index1","Login",new { id =Model.Accountno })'" />
+
+</p>
