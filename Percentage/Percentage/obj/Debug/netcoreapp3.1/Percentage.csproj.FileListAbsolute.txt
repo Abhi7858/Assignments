@@ -1,0 +1,13 @@
+C:\Users\Dell\Desktop\github\Assignments\Percentage\Percentage\bin\Debug\netcoreapp3.1\Percentage.exe
+C:\Users\Dell\Desktop\github\Assignments\Percentage\Percentage\bin\Debug\netcoreapp3.1\Percentage.deps.json
+C:\Users\Dell\Desktop\github\Assignments\Percentage\Percentage\bin\Debug\netcoreapp3.1\Percentage.runtimeconfig.json
+C:\Users\Dell\Desktop\github\Assignments\Percentage\Percentage\bin\Debug\netcoreapp3.1\Percentage.runtimeconfig.dev.json
+C:\Users\Dell\Desktop\github\Assignments\Percentage\Percentage\bin\Debug\netcoreapp3.1\Percentage.dll
+C:\Users\Dell\Desktop\github\Assignments\Percentage\Percentage\bin\Debug\netcoreapp3.1\Percentage.pdb
+C:\Users\Dell\Desktop\github\Assignments\Percentage\Percentage\obj\Debug\netcoreapp3.1\Percentage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\Desktop\github\Assignments\Percentage\Percentage\obj\Debug\netcoreapp3.1\Percentage.AssemblyInfoInputs.cache
+C:\Users\Dell\Desktop\github\Assignments\Percentage\Percentage\obj\Debug\netcoreapp3.1\Percentage.AssemblyInfo.cs
+C:\Users\Dell\Desktop\github\Assignments\Percentage\Percentage\obj\Debug\netcoreapp3.1\Percentage.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\github\Assignments\Percentage\Percentage\obj\Debug\netcoreapp3.1\Percentage.dll
+C:\Users\Dell\Desktop\github\Assignments\Percentage\Percentage\obj\Debug\netcoreapp3.1\Percentage.pdb
+C:\Users\Dell\Desktop\github\Assignments\Percentage\Percentage\obj\Debug\netcoreapp3.1\Percentage.genruntimeconfig.cache
