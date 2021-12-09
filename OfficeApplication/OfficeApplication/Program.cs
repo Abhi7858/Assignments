@@ -25,8 +25,7 @@ namespace OfficeApplication
         public static int GetEmployeeId()
         {
             Console.Write("Enter Employee Id : ");
-            int getId = Convert.ToInt32(Console.ReadLine());
-            return getId;
+            return Convert.ToInt32(Console.ReadLine());
         }
         public static TblEmployee EnterEmployeeDetails()
         {
