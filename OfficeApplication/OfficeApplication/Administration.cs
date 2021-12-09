@@ -11,9 +11,9 @@ namespace OfficeApplication
             Context.SaveChanges();
         }
 
-        public void RemoveEmployee(int removeId)
+        public void RemoveEmployee(int employeeId)
         {
-            var Employee = Context.TblEmployees.Find(removeId);
+            var Employee = Context.TblEmployees.Find(employeeId);
             if (Employee != null)
             {
                 Context.TblEmployees.Remove(Employee);
@@ -23,9 +23,9 @@ namespace OfficeApplication
 
         }
 
-        public void UpdateEmployee(int updateId)
+        public void UpdateEmployee(int employeeId)
         {
-            var Employee = Context.TblEmployees.Find(updateId);
+            var Employee = Context.TblEmployees.Find(employeeId);
             if (Employee != null)
             {
                 Console.Write("Update Name of {0}: ", Employee.EmployeeName);
