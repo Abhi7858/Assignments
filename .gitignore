@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/OfficeApplication/.vs/OfficeApplication/v16
+/OfficeApplication/OfficeApplication/bin/Debug
+/OfficeApplication/OfficeApplication/obj
+/OfficeApplication/packages/EntityFramework.6.4.4
