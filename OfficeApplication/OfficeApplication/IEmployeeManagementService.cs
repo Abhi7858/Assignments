@@ -3,8 +3,8 @@
     interface IEmployeeManagementService
     {
         void AddEmployee(TblEmployee employee);
-        void UpdateEmployee(int updateId);
-        void RemoveEmployee(int removeId);
+        void UpdateEmployee(int employeeId);
+        void RemoveEmployee(int employeeId);
 
     }
 }
