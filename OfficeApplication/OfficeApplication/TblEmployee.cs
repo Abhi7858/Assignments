@@ -9,6 +9,6 @@ namespace OfficeApplication
         public string EmployeeAddress { get; set; }
         public string DepartmentName { get; set; }
         public int DepartmentId { get; set; }
-        public Nullable<decimal> Salary { get; set; }
+        public <decimal> Salary { get; set; }
     }
 }
