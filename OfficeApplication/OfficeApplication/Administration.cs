@@ -21,7 +21,6 @@ namespace OfficeApplication
                 Context.SaveChanges();
                 Console.WriteLine("Employee Removed SuccessFully....");
             }
-
         }
 
         public void UpdateEmployee(int employeeId)

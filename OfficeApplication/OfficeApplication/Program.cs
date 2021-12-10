@@ -43,11 +43,7 @@ namespace OfficeApplication
                         break;
                     case 5:
                         Console.WriteLine("Select Department to Display: ");
-                        Console.WriteLine("1. Administration");
-                        Console.WriteLine("2. Payroll");
-                        Console.WriteLine("3. R&D");
-                        Console.WriteLine("4. Technical");
-                        Console.WriteLine("5. Help and Support");
+                        officeUtil.DepartmentList();
                         Console.Write("Enter Department Id: ");
                         int departmentId = Convert.ToInt32(Console.ReadLine());
                         officeUtil.DepartmentWiseDisplay(departmentId);

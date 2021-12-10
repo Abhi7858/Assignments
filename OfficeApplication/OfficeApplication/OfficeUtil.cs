@@ -4,6 +4,14 @@ namespace OfficeApplication
 {
     class OfficeUtil
     {
+        public void DepartmentList()
+        {
+            var context = new EmployeeEntities1();
+            foreach (var department in context.Departments)
+            {
+                Console.WriteLine(department.DepartmentId +"  "+  department.DepartmentName);
+            }
+        }
         public  Employee GetEmployeeDetails()
         {
             int id, deptId;
@@ -18,11 +26,7 @@ namespace OfficeApplication
             Console.Write("Enter Employee Salary: ");
             salary = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Select Department Id: ");
-            Console.WriteLine("1. Administration");
-            Console.WriteLine("2. Payroll");
-            Console.WriteLine("3. R&D");
-            Console.WriteLine("4. Technical");
-            Console.WriteLine("5. Help and Support");
+            DepartmentList();
             Console.Write("Enter Department Id: ");
             deptId = Convert.ToInt32(Console.ReadLine());
             var employee = new Employee
